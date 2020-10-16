@@ -1,0 +1,14 @@
+webpackHotUpdate("frontity-test",{
+
+/***/ "./packages/mars-theme/src/components/nav.js":
+/*!***************************************************!*\
+  !*** ./packages/mars-theme/src/components/nav.js ***!
+  \***************************************************/
+/*! exports provided: default */
+/***/ (function(module, exports) {
+
+eval("throw new Error(\"Module build failed (from ./node_modules/babel-loader/lib/index.js):\\nSyntaxError: /Users/ericanaglik/frontity-test/packages/mars-theme/src/components/nav.js: Unexpected token (38:0)\\n\\n\\u001b[0m \\u001b[90m 36 | \\u001b[39m\\u001b[36mconst\\u001b[39m \\u001b[33mSubNavContainer\\u001b[39m \\u001b[33m=\\u001b[39m \\u001b[0m\\n\\u001b[0m \\u001b[90m 37 | \\u001b[39m\\u001b[0m\\n\\u001b[0m\\u001b[31m\\u001b[1m>\\u001b[22m\\u001b[39m\\u001b[90m 38 | \\u001b[39m\\u001b[36mexport\\u001b[39m \\u001b[36mdefault\\u001b[39m connect(\\u001b[33mNav\\u001b[39m)\\u001b[33m;\\u001b[39m\\u001b[0m\\n\\u001b[0m \\u001b[90m    | \\u001b[39m\\u001b[31m\\u001b[1m^\\u001b[22m\\u001b[39m\\u001b[0m\\n\\u001b[0m \\u001b[90m 39 | \\u001b[39m\\u001b[0m\\n\\u001b[0m \\u001b[90m 40 | \\u001b[39m\\u001b[36mconst\\u001b[39m \\u001b[33mNavContainer\\u001b[39m \\u001b[33m=\\u001b[39m styled\\u001b[33m.\\u001b[39mnav\\u001b[32m`\\u001b[39m\\u001b[0m\\n\\u001b[0m \\u001b[90m 41 | \\u001b[39m\\u001b[32m  list-style: none;\\u001b[39m\\u001b[0m\\n    at Object._raise (/Users/ericanaglik/frontity-test/node_modules/@babel/parser/src/parser/error.js:60:45)\\n    at Object.raiseWithData (/Users/ericanaglik/frontity-test/node_modules/@babel/parser/src/parser/error.js:55:17)\\n    at Object.raise (/Users/ericanaglik/frontity-test/node_modules/@babel/parser/src/parser/error.js:39:17)\\n    at Object.unexpected (/Users/ericanaglik/frontity-test/node_modules/@babel/parser/src/parser/util.js:139:16)\\n    at Object.parseExprAtom (/Users/ericanaglik/frontity-test/node_modules/@babel/parser/src/parser/expression.js:1186:20)\\n    at Object.parseExprAtom (/Users/ericanaglik/frontity-test/node_modules/@babel/parser/src/plugins/jsx/index.js:535:22)\\n    at Object.parseExprSubscripts (/Users/ericanaglik/frontity-test/node_modules/@babel/parser/src/parser/expression.js:563:23)\\n    at Object.parseUpdate (/Users/ericanaglik/frontity-test/node_modules/@babel/parser/src/parser/expression.js:543:21)\\n    at Object.parseMaybeUnary (/Users/ericanaglik/frontity-test/node_modules/@babel/parser/src/parser/expression.js:527:17)\\n    at Object.parseExprOps (/Users/ericanaglik/frontity-test/node_modules/@babel/parser/src/parser/expression.js:343:23)\");//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiIuL3BhY2thZ2VzL21hcnMtdGhlbWUvc3JjL2NvbXBvbmVudHMvbmF2LmpzLmpzIiwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./packages/mars-theme/src/components/nav.js\n");
+
+/***/ })
+
+})
