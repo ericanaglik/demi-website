@@ -27,7 +27,20 @@ Don't forget to subscribe to my newsletter down below.</WelcomeBio>
           <WelcomeContainerBack/>
         </WelcomeArea>
       </Pls>
+      <LatestPostsTitle>LATEST POSTS</LatestPostsTitle>
       <LatestPostsContainer/>
+      
+      <SubscribeContainer><SubscribeTitle>SUBSCRIBE TO MY NEWSLETTER</SubscribeTitle>
+      <SubscribeForm>
+        <SubscribeLabel>
+          <SubscribeInput type={"text"} name={"name"} placeholder={"FIRST NAME"}/>
+        </SubscribeLabel>
+        <SubscribeLabel>
+          <SubscribeInput type={"email"} name={"name"} placeholder={"EMAIL"}/>
+        </SubscribeLabel>
+        <SubscribeButtonInput type={"submit"} value={"SUBSCRIBE!"} />
+      </SubscribeForm>
+      </SubscribeContainer>
     </>
   );
 };
@@ -125,6 +138,7 @@ const LatestPostsContainer = styled.div`
   width: 100%;
   height: 50%;
   top: 180%;
+  z-index: 1;
 `;
 
 const WelcomeBio = styled.p`
@@ -134,5 +148,79 @@ const WelcomeBio = styled.p`
   position: absolute;
   left: 350px;
   font-size: 19px;
+  color: #322B28;
+`;
+
+const LatestPostsTitle = styled.p`
+  font-family: elgocthin;
+  position: absolute;
+  top: 1693px;
+  left: 10%;
+  z-index: 10;
+  font-size: 40px;
+  letter-spacing: 4px;
+  color: #322B28;
+`;
+
+const SubscribeContainer = styled.div`
+  position: absolute;
+  background-color: #fff;
+  width: 100%;
+  height: 40%;
+  top: 230%;
+  z-index: 1;
+`;
+
+const SubscribeTitle = styled.p`
+  font-family: elgocthin;
+  text-align: center;
+  top: 1693px;
+  padding-top: 20px;
+  font-size: 40px;
+  letter-spacing: 4px;
+  color: #322B28;
+`;
+
+const SubscribeForm = styled.form`
+  font-family: elgocthin;
+  text-align: center;
+  top: 1693px;
+  padding-top: 20px;
+  font-size: 40px;
+  letter-spacing: 4px;
+  color: #322B28;
+`;
+
+const SubscribeLabel = styled.label`
+  font-family: elgocthin;
+  text-align: center;
+  top: 1693px;
+  padding-top: 20px;
+  font-size: 40px;
+  letter-spacing: 4px;
+  color: #322B28;
+  
+`;
+
+const SubscribeInput = styled.input`
+border: 2px solid #d1b6ad;
+background-color: #f0eceb;
+color: #8a766b;
+padding: 10px;
+width: 20%;
+letter-spacing: 2px;
+margin: 10px;
+
+`;
+
+const SubscribeButtonInput = styled.input`
+border: none;
+background-color: transparent;
+color: #8a766b;
+padding: 10px;
+font-size: 20px;
+letter-spacing: 2px;
+margin: 10px;
+
 `;
 
