@@ -12,11 +12,14 @@ const Homepage = ({ state }) => {
       <HeaderText src={"http://5zq.7eb.myftpupload.com/wp-content/uploads/2020/10/DemiBangHorizontalLogo_Grey-1.png"}/>
       <HeaderPhoto src={"http://5zq.7eb.myftpupload.com/wp-content/uploads/2020/10/Rephresh-v2-2-scaled.jpg"}/>
       <HeaderContainer/>
-      
-        <WelcomeText src={"http://5zq.7eb.myftpupload.com/wp-content/uploads/2020/10/Welcome-1.png"}/>
-        <WelcomePhoto src={"http://5zq.7eb.myftpupload.com/wp-content/uploads/2020/10/IMG_8903-1-scaled.jpg"}/>
-        <WelcomeContainerFront/>
-        <WelcomeContainerBack/>
+      <Pls>
+        <WelcomeArea>
+          <WelcomeText src={"http://5zq.7eb.myftpupload.com/wp-content/uploads/2020/10/Welcome-1.png"}/>
+          <WelcomePhoto src={"http://5zq.7eb.myftpupload.com/wp-content/uploads/2020/10/IMG_8903-1-scaled.jpg"}/>
+          <WelcomeContainerFront/>
+          <WelcomeContainerBack/>
+        </WelcomeArea>
+      </Pls>
     </>
   );
 };
@@ -58,43 +61,53 @@ const WelcomeText = styled.img`
 position: absolute;
 z-index: 10;
 width: 350px;
-margin-top:970px;
-left: 800px;
+top: 20px;
+left: 400px;
 
 
 `;
 
 const WelcomeContainerFront = styled.div`
 background-color: #f0eceb;
-width: 700px;
-margin-top: 1000px;
-height: 600px;
-right: 100px;
+width: 600px;
+top: 50px;
+height: 500px;
+left: 290px;
 position: absolute;
 z-index: 3;
 `;
 
 const WelcomeContainerBack = styled.div`
 background-color: #d2b7ae;
-width: 700px;
-margin-top: 1020px;
-height: 600px;
-right: 80px;
+width: 620px;
+top: 70px;
+height: 500px;
+left: 290px;
 position: absolute;
 z-index: 2;
 `;
 
 const WelcomePhoto = styled.img`
-  height: 80%;
-  left: 100px;
-  margin-top: 900px;
+  height: 600px;
   position: absolute;
+  left: -110px;
+
+
+
 `;
 
 const WelcomeArea = styled.div`
-  height: 95%;
-  left: 100px;
-  margin-top: 800px;
-  position: absolute;
+
+position: absolute;
+top: 100%;
+z-index: 50;
+`
+const Pls = styled.div`
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 800px;
+
+
 `;
 
