@@ -3,9 +3,11 @@ import { Global, css, connect, styled, Head } from "frontity";
 
 
 
-const Homepage = ({ state }) => {
+const Homepage = ({ state, libraries }) => {
 
   const data = state.source.get(state.router.link);
+  let a = async () => {await libraries.source.api.get({endpoint: "posts"})}
+  a().then(x => console.log(x))
 
   return (
     <>
@@ -20,6 +22,7 @@ const Homepage = ({ state }) => {
           <WelcomeContainerBack/>
         </WelcomeArea>
       </Pls>
+      <LatestPostsContainer/>
     </>
   );
 };
@@ -109,5 +112,13 @@ margin-right: auto;
 width: 800px;
 
 
+`;
+
+const LatestPostsContainer = styled.div`
+  position: absolute;
+  background-color: #f0eceb;
+  width: 100%;
+  height: 50%;
+  top: 180%;
 `;
 
