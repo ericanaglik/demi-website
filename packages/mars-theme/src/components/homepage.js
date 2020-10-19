@@ -154,7 +154,7 @@ const WelcomeBio = styled.p`
 const LatestPostsTitle = styled.p`
   font-family: elgocthin;
   position: absolute;
-  top: 1693px;
+  top: 1640px;
   left: 10%;
   z-index: 10;
   font-size: 40px;
