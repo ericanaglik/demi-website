@@ -8,6 +8,7 @@ import Loading from "./loading";
 import Title from "./title";
 import PageError from "./page-error";
 import Homepage from "./homepage";
+import Contact from "./contact";
 
 /**
  * Theme is the root React component of our theme. The one we will export
@@ -35,7 +36,7 @@ const Theme = ({ state }) => {
         <Header />
       </HeadContainer>
 
-      <Homepage/>
+      <Contact/>
 
       {/* Add the main section. It renders a different component depending
       on the type of URL we are in. */}
