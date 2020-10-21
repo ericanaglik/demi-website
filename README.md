@@ -1,3 +1,7 @@
+## Website Redesign for influencer Demi Bang using Frontity and React
+
+![Homepage Layout-Main](https://user-images.githubusercontent.com/40673456/96789638-61233f00-13aa-11eb-9a5a-ed0abe7bb13f.jpg)
+
 # frontity-test
 
 This project was bootstrapped with [Frontity](https://frontity.org/).
