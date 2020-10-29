@@ -36,8 +36,9 @@ const Contact = ({ state, libraries }) => {
         </ContactFormContainer>
       </ContactContainer>
   
-      <LatestPostsTitle>INTERESTED IN WORKING WITH ME?</LatestPostsTitle>
-      <LatestPostsContainer/>
+      <LatestPostsContainer>
+        <LatestPostsTitle>INTERESTED IN WORKING WITH ME?</LatestPostsTitle>
+      </LatestPostsContainer>
       <FeaturedInTitle>FEATURED IN</FeaturedInTitle> 
       <FeaturedInContainer><FeaturedPhoto src={"http://5zq.7eb.myftpupload.com/wp-content/uploads/2020/10/Screen-Shot-2020-10-20-at-3.58.25-PM.png"}/></FeaturedInContainer>
 
@@ -58,12 +59,8 @@ const Contact = ({ state, libraries }) => {
         <Line></Line>
           <SubscribeTitle>SUBSCRIBE TO MY NEWSLETTER</SubscribeTitle>
         <SubscribeForm>
-          <SubscribeLabel>
             <SubscribeInput type={"text"} name={"name"} placeholder={"FIRST NAME"}/>
-          </SubscribeLabel>
-          <SubscribeLabel>
             <SubscribeInput type={"email"} name={"name"} placeholder={"EMAIL"}/>
-          </SubscribeLabel>
           <SubscribeButtonInput type={"submit"} value={"SUBSCRIBE!"} />
         </SubscribeForm>
       </SubscribeContainer>
@@ -119,7 +116,7 @@ const FeaturedInContainer = styled.div`
 position: absolute;
 
 width: 100%;
-height: 70%;
+height: 640px;
 display: flex;
 flex-direction: row;
 justify-content: center;
@@ -250,84 +247,23 @@ const HeaderContainer = styled.div`
   z-index: 1;
 `;
 
-const WelcomeText = styled.img`
-position: absolute;
-z-index: 10;
-width: 350px;
-top: 20px;
-left: 400px;
 
-
-`;
-
-const WelcomeContainerFront = styled.div`
-background-color: #f0eceb;
-width: 600px;
-top: 50px;
-height: 500px;
-left: 290px;
-position: absolute;
-z-index: 3;
-`;
-
-const WelcomeContainerBack = styled.div`
-background-color: #d2b7ae;
-width: 620px;
-top: 70px;
-height: 500px;
-left: 290px;
-position: absolute;
-z-index: 2;
-`;
-
-const WelcomePhoto = styled.img`
-  height: 600px;
-  position: absolute;
-  left: -110px;
-
-
-
-`;
-
-const WelcomeArea = styled.div`
-
-position: absolute;
-top: 100%;
-z-index: 50;
-`
-const Pls = styled.div`
-display: block;
-margin-left: auto;
-margin-right: auto;
-width: 800px;
-
-
-`;
 
 const LatestPostsContainer = styled.div`
-  position: absolute;
+  position: relative;
   background-color: #f0eceb;
   width: 100%;
   height: 700px;
-  top: 1425px;
+  top: 140vh;
   z-index: 1;
 `;
 
-const WelcomeBio = styled.p`
-  width: 500px;
-  z-index: 100;
-  top: 100px;
-  position: absolute;
-  left: 350px;
-  font-size: 19px;
-  color: #322B28;
-`;
 
 const LatestPostsTitle = styled.p`
   font-family: elgocthin;
-  position: absolute;
-  top: 1360px;
+  position: relative;
   left: 10%;
+  top: -25px;
   z-index: 10;
   font-size: 40px;
   letter-spacing: 4px;
@@ -363,10 +299,6 @@ const SubscribeForm = styled.form`
   color: #322B28;
 `;
 
-const SubscribeLabel = styled.label`
-
-  
-`;
 
 const SubscribeInput = styled.input`
 border: 2px solid #d1b6ad;
