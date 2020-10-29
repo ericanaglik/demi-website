@@ -75,34 +75,37 @@ const Contact = ({ state, libraries }) => {
 export default connect(Contact);
 
 const PartnershipsContainer = styled.div`
-position: relative;
-background-color: #f0eceb;
-width: 100%;
-height: 620px;
-top: 140vh;
-z-index: 1;
+  position: relative;
+  background-color: #f0eceb;
+  width: 100%;
+  height: 620px;
+  top: 140vh;
+  z-index: 1;
 `;
-const Partnerships1 = styled.p`
-line-height: 1.6;
-letter-spacing: 2px;
-font-size: 20px;
-`;
-const Partnerships2 = styled.p`
-line-height: 1.6;
-letter-spacing: 2px;
-font-size: 20px;
-`;
-const Partnerships3 = styled.p`
-line-height: 1.6;
-letter-spacing: 2px;
-font-size: 20px;
-`;
-const PartnershipsListContainer = styled.div`
-display: flex;
-flex-direction: row;
-justify-content: space-around;
-margin-top: 50px;
 
+const Partnerships1 = styled.p`
+  line-height: 1.6;
+  letter-spacing: 2px;
+  font-size: 20px;
+`;
+
+const Partnerships2 = styled.p`
+  line-height: 1.6;
+  letter-spacing: 2px;
+  font-size: 20px;
+`;
+
+const Partnerships3 = styled.p`
+  line-height: 1.6;
+  letter-spacing: 2px;
+  font-size: 20px;
+`;
+
+const PartnershipsListContainer = styled.div`
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 50px;
 `;
 
 const PartnershipsTitle = styled.p`
@@ -116,15 +119,15 @@ const PartnershipsTitle = styled.p`
 `;
 
 const FeaturedInContainer = styled.div`
-position: relative;
-width: 100%;
-height: 640px;
-display: flex;
-flex-direction: row;
-justify-content: center;
-top: 140vh;
-margin: auto;
-z-index: 90000;
+  position: relative;
+  width: 100%;
+  height: 640px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  top: 140vh;
+  margin: auto;
+  z-index: 90000;
 `;
 
 const FeaturedInTitle = styled.p`
@@ -139,78 +142,81 @@ const FeaturedInTitle = styled.p`
 `;
 
 const ContactContainer = styled.div`
-position: absolute;
-
-width: 100%;
-height: 70%;
-display: flex;
-flex-direction: row;
-justify-content: center;
-top: 100%;
-margin: auto;
+  position: absolute;
+  width: 100%;
+  height: 70%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  top: 100%;
+  margin: auto;
 `;
+
 const ContactTextContainer = styled.div`
-padding-right: 20px
-
+  padding-right: 20px
 `;
+
 const ContactFormContainer = styled.div`
   display: flex;
   flex-direction: column;
   padding-left: 20px;
   padding-top: 35px;
-  
+`;
 
-`;
 const ContactTitle = styled.p`
-font-family: elgocthin;
-font-size: 30px;
+  font-family: elgocthin;
+  font-size: 30px;
   letter-spacing: 2px;
   color: #322B28;
   margin-bottom: -10px;
 `;
+
 const ContactText = styled.p`
-color: #322B28;
-padding-bottom: 40px;
+  color: #322B28;
+  padding-bottom: 40px;
 `;
+
 const SnailMailTitle = styled.p`
-font-family: elgocthin;
-font-size: 30px;
+  font-family: elgocthin;
+  font-size: 30px;
   letter-spacing: 2px;
   color: #322B28;
   margin-bottom: -10px;
 `;
+
 const SnailMailText = styled.p`
-color: #322B28;
+  color: #322B28;
 `;
+
 const ContactInput = styled.input`
-border: 2px solid #d1b6ad;
-background-color: #f0eceb;
-color: #8a766b;
-padding: 5px;
-width: 300px;
-letter-spacing: 2px;
-margin: 5px;
+  border: 2px solid #d1b6ad;
+  background-color: #f0eceb;
+  color: #8a766b;
+  padding: 5px;
+  width: 300px;
+  letter-spacing: 2px;
+  margin: 5px;
 `;
 
 const ContactMessageInput = styled.input`
-border: 2px solid #d1b6ad;
-background-color: #f0eceb;
-color: #8a766b;
-padding: 5px;
-word-wrap: normal;
-line-height: 100px;
-letter-spacing: 2px;
-margin: 5px;
+  border: 2px solid #d1b6ad;
+  background-color: #f0eceb;
+  color: #8a766b;
+  padding: 5px;
+  word-wrap: normal;
+  line-height: 100px;
+  letter-spacing: 2px;
+  margin: 5px;
 `;
-const ContactButtonInput = styled.input`
-border: none;
-background-color: transparent;
-color: #8a766b;
-padding: 10px;
-font-size: 20px;
-letter-spacing: 2px;
-margin: 10px;
 
+const ContactButtonInput = styled.input`
+  border: none;
+  background-color: transparent;
+  color: #8a766b;
+  padding: 10px;
+  font-size: 20px;
+  letter-spacing: 2px;
+  margin: 10px;
 `;
 
 const HeaderText = styled.img`
@@ -222,7 +228,6 @@ const HeaderText = styled.img`
   margin-right: 25%;
   margin-bottom: 10px;
   display: block;
-
 `;
 
 const HeaderPhoto = styled.img`
@@ -244,8 +249,6 @@ const HeaderContainer = styled.div`
   z-index: 1;
 `;
 
-
-
 const WorkWithMeContainer = styled.div`
   position: relative;
   background-color: #f0eceb;
@@ -254,7 +257,6 @@ const WorkWithMeContainer = styled.div`
   top: 140vh;
   z-index: 1;
 `;
-
 
 const WorkWithMeTitle = styled.p`
   font-family: elgocthin;
@@ -296,27 +298,24 @@ const SubscribeForm = styled.form`
   color: #322B28;
 `;
 
-
 const SubscribeInput = styled.input`
-border: 2px solid #d1b6ad;
-background-color: #f0eceb;
-color: #8a766b;
-padding: 10px;
-width: 20%;
-letter-spacing: 2px;
-margin: 10px;
-
+  border: 2px solid #d1b6ad;
+  background-color: #f0eceb;
+  color: #8a766b;
+  padding: 10px;
+  width: 20%;
+  letter-spacing: 2px;
+  margin: 10px;
 `;
 
 const SubscribeButtonInput = styled.input`
-border: none;
-background-color: transparent;
-color: #8a766b;
-padding: 10px;
-font-size: 20px;
-letter-spacing: 2px;
-margin: 10px;
-
+  border: none;
+  background-color: transparent;
+  color: #8a766b;
+  padding: 10px;
+  font-size: 20px;
+  letter-spacing: 2px;
+  margin: 10px;
 `;
 
 const WorkTitle = styled.p`
@@ -330,10 +329,9 @@ const WorkTitle = styled.p`
 `;
 
 const Line = styled.hr`
-margin-top: 50px;
-margin-bottom: 50px;
-border: 1px solid #d1b6ad;
-text-align: center;
-width: 650px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border: 1px solid #d1b6ad;
+  text-align: center;
+  width: 650px;
 `;
-
