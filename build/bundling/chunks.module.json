@@ -2,19 +2,19 @@
   "errors": [],
   "warnings": [],
   "version": "4.44.2",
-  "hash": "e71efd6b9d9dec9bd8a5",
+  "hash": "49cebf6789389c682948",
   "publicPath": "/static/",
   "outputPath": "/Users/ericanaglik/frontity-test/build/static",
   "assetsByChunkName": {
     "frontity-test": [
       "frontity-test.module.js",
-      "frontity-test.ebf6919bf68102cbe473.hot-update.js"
+      "frontity-test.a27cc0c2656f079d2a18.hot-update.js"
     ],
     "list": "list.module.js"
   },
   "assets": [
     {
-      "name": "ebf6919bf68102cbe473.hot-update.json",
+      "name": "a27cc0c2656f079d2a18.hot-update.json",
       "size": 55,
       "chunks": [],
       "chunkNames": [],
@@ -73,8 +73,8 @@
       "emitted": false
     },
     {
-      "name": "frontity-test.ebf6919bf68102cbe473.hot-update.js",
-      "size": 393842,
+      "name": "frontity-test.a27cc0c2656f079d2a18.hot-update.js",
+      "size": 373930,
       "chunks": [
         "frontity-test"
       ],
@@ -89,7 +89,7 @@
     },
     {
       "name": "frontity-test.module.js",
-      "size": 5706833,
+      "size": 5686921,
       "chunks": [
         "frontity-test"
       ],
@@ -120,7 +120,7 @@
       ],
       "assets": [
         "frontity-test.module.js",
-        "frontity-test.ebf6919bf68102cbe473.hot-update.js"
+        "frontity-test.a27cc0c2656f079d2a18.hot-update.js"
       ],
       "children": {},
       "childAssets": {}
@@ -133,7 +133,7 @@
       ],
       "assets": [
         "frontity-test.module.js",
-        "frontity-test.ebf6919bf68102cbe473.hot-update.js"
+        "frontity-test.a27cc0c2656f079d2a18.hot-update.js"
       ],
       "children": {},
       "childAssets": {}

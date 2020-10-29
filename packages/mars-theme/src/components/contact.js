@@ -39,11 +39,15 @@ const Contact = ({ state, libraries }) => {
       <WorkWithMeContainer>
         <WorkWithMeTitle>INTERESTED IN WORKING WITH ME?</WorkWithMeTitle>
       </WorkWithMeContainer>
+      
+      <FeaturedInContainer>
       <FeaturedInTitle>FEATURED IN</FeaturedInTitle> 
-      <FeaturedInContainer><FeaturedPhoto src={"http://5zq.7eb.myftpupload.com/wp-content/uploads/2020/10/Screen-Shot-2020-10-20-at-3.58.25-PM.png"}/></FeaturedInContainer>
 
-      <PartnershipsTitle>PARTNERSHIPS</PartnershipsTitle>
+      </FeaturedInContainer>
+
+      
       <PartnershipsContainer>
+      <PartnershipsTitle>PARTNERSHIPS</PartnershipsTitle>
         <PartnershipsListContainer>
           <Partnerships1>BIORE<br></br>HOME DEPOT<br></br>ELLIE ACTIVEWEAR<br></br>TRIP ADVISOR<br></br>HARPER WILDE<br></br>GLOSSIER<br></br>THE HOME DEPOT<br></br>GORJANA<br></br>COLOURPOP<br></br>THE BODY SHOP<br></br>GHOST BED<br></br>COLOR ME MINE<br></br>OLAY</Partnerships1>
           <Partnerships2>CAREFREE<br></br>SUMMER'S EVE<br></br>RENUZIT<br></br>FRY'S FOOD<br></br>WHOLE FOODS<br></br>SHOEDAZZLE<br></br>GOT2b<br></br>VICTORIA'S SECRET<br></br>TOLL BROTERS<br></br>KROGER<br></br>ADIDAS<br></br>COTTONELLE<br></br>VIVA TOWELS</Partnerships2>
@@ -71,11 +75,11 @@ const Contact = ({ state, libraries }) => {
 export default connect(Contact);
 
 const PartnershipsContainer = styled.div`
-position: absolute;
+position: relative;
 background-color: #f0eceb;
 width: 100%;
 height: 620px;
-top: 2700px;
+top: 140vh;
 z-index: 1;
 `;
 const Partnerships1 = styled.p`
@@ -104,7 +108,6 @@ margin-top: 50px;
 const PartnershipsTitle = styled.p`
   font-family: elgocthin;
   position: absolute;
-  top: 2638px;
   left: 10%;
   z-index: 900;
   font-size: 40px;
@@ -113,27 +116,21 @@ const PartnershipsTitle = styled.p`
 `;
 
 const FeaturedInContainer = styled.div`
-position: absolute;
-
+position: relative;
 width: 100%;
 height: 640px;
 display: flex;
 flex-direction: row;
 justify-content: center;
-top: 210%;
+top: 140vh;
 margin: auto;
-`;
-
-const FeaturedPhoto = styled.img`
-display: block;
-margin: auto;
-width: 800px;
+z-index: 90000;
 `;
 
 const FeaturedInTitle = styled.p`
   font-family: elgocthin;
   position: absolute;
-  top: 2063px;
+  top: 1px;
   left: 10%;
   z-index: 900;
   font-size: 40px;
@@ -261,7 +258,7 @@ const WorkWithMeContainer = styled.div`
 
 const WorkWithMeTitle = styled.p`
   font-family: elgocthin;
-  position: relative;
+  position: absolute;
   left: 10%;
   top: -25px;
   z-index: 10;
@@ -271,11 +268,11 @@ const WorkWithMeTitle = styled.p`
 `;
 
 const SubscribeContainer = styled.div`
-  position: absolute;
+  position: relative;
   background-color: #fff;
   width: 100%;
   height: 60%;
-  top: 350%;
+  top: 140vh;
   z-index: 1;
 `;
 
