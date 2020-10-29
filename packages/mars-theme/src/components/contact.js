@@ -36,9 +36,9 @@ const Contact = ({ state, libraries }) => {
         </ContactFormContainer>
       </ContactContainer>
   
-      <LatestPostsContainer>
-        <LatestPostsTitle>INTERESTED IN WORKING WITH ME?</LatestPostsTitle>
-      </LatestPostsContainer>
+      <WorkWithMeContainer>
+        <WorkWithMeTitle>INTERESTED IN WORKING WITH ME?</WorkWithMeTitle>
+      </WorkWithMeContainer>
       <FeaturedInTitle>FEATURED IN</FeaturedInTitle> 
       <FeaturedInContainer><FeaturedPhoto src={"http://5zq.7eb.myftpupload.com/wp-content/uploads/2020/10/Screen-Shot-2020-10-20-at-3.58.25-PM.png"}/></FeaturedInContainer>
 
@@ -249,7 +249,7 @@ const HeaderContainer = styled.div`
 
 
 
-const LatestPostsContainer = styled.div`
+const WorkWithMeContainer = styled.div`
   position: relative;
   background-color: #f0eceb;
   width: 100%;
@@ -259,7 +259,7 @@ const LatestPostsContainer = styled.div`
 `;
 
 
-const LatestPostsTitle = styled.p`
+const WorkWithMeTitle = styled.p`
   font-family: elgocthin;
   position: relative;
   left: 10%;
