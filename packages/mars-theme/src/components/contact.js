@@ -42,7 +42,21 @@ const Contact = ({ state, libraries }) => {
       
       <FeaturedInContainer>
       <FeaturedInTitle>FEATURED IN</FeaturedInTitle> 
-
+      <FeaturedInColumn1>
+        <FeaturedImg src={"http://5zq.7eb.myftpupload.com/wp-content/uploads/2020/10/AZ-Foothills-Logo.png"}/>
+        <FeaturedImg src={"http://5zq.7eb.myftpupload.com/wp-content/uploads/2020/10/Thrive-Global-Logo.png"}/>
+        <FeaturedImg src={"http://5zq.7eb.myftpupload.com/wp-content/uploads/2020/10/Voyage-Phoenix-Logo.png"}/>
+      </FeaturedInColumn1>
+      <FeaturedInColumn2>
+        <FeaturedImg src={"http://5zq.7eb.myftpupload.com/wp-content/uploads/2020/10/Goodwill-Logo.png"}/>
+        <FeaturedImg src={"http://5zq.7eb.myftpupload.com/wp-content/uploads/2020/10/All-Points-Public-Relations.png"}/>
+        <FeaturedImg src={"http://5zq.7eb.myftpupload.com/wp-content/uploads/2020/10/AZ-Central-Logo.png"}/>
+      </FeaturedInColumn2>
+      <FeaturedInColumn3>
+        <FeaturedImg src={"http://5zq.7eb.myftpupload.com/wp-content/uploads/2020/10/The-White-Wren-Logo.jpg"}/>
+        <FeaturedImg src={"http://5zq.7eb.myftpupload.com/wp-content/uploads/2020/10/Medium-Logo.png"}/>
+        <FeaturedImg src={"http://5zq.7eb.myftpupload.com/wp-content/uploads/2020/10/Avontage-Logo.png"}/>
+      </FeaturedInColumn3>
       </FeaturedInContainer>
 
       
@@ -125,9 +139,8 @@ const FeaturedInContainer = styled.div`
   height: 640px;
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-around;
   top: 140vh;
-  margin: auto;
   z-index: 90000;
 `;
 
@@ -335,4 +348,33 @@ const Line = styled.hr`
   border: 1px solid #d1b6ad;
   text-align: center;
   width: 650px;
+`;
+
+const FeaturedInColumn1 = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-top: 100px;
+  padding-bottom: 100px;
+`;
+
+const FeaturedInColumn2 = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-top: 100px;
+  padding-bottom: 100px;
+`;
+
+const FeaturedInColumn3 = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-top: 100px;
+  padding-bottom: 100px;
+
+`;
+
+const FeaturedImg = styled.img`
+  width: 300px;
 `;

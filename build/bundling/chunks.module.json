@@ -2,28 +2,14 @@
   "errors": [],
   "warnings": [],
   "version": "4.44.2",
-  "hash": "d860aedb0fc90d007655",
+  "hash": "521ead2ba5bb0001ab0f",
   "publicPath": "/static/",
   "outputPath": "/Users/ericanaglik/frontity-test/build/static",
   "assetsByChunkName": {
-    "frontity-test": [
-      "frontity-test.module.js",
-      "frontity-test.7e9ed84a4a8a3067b9f1.hot-update.js"
-    ],
+    "frontity-test": "frontity-test.module.js",
     "list": "list.module.js"
   },
   "assets": [
-    {
-      "name": "7e9ed84a4a8a3067b9f1.hot-update.json",
-      "size": 55,
-      "chunks": [],
-      "chunkNames": [],
-      "info": {
-        "hotModuleReplacement": true,
-        "immutable": true
-      },
-      "emitted": false
-    },
     {
       "name": "fonts/elgoc-light-webfont.woff",
       "size": 32700,
@@ -73,23 +59,8 @@
       "emitted": false
     },
     {
-      "name": "frontity-test.7e9ed84a4a8a3067b9f1.hot-update.js",
-      "size": 381383,
-      "chunks": [
-        "frontity-test"
-      ],
-      "chunkNames": [
-        "frontity-test"
-      ],
-      "info": {
-        "hotModuleReplacement": true,
-        "immutable": true
-      },
-      "emitted": false
-    },
-    {
       "name": "frontity-test.module.js",
-      "size": 5694374,
+      "size": 5826302,
       "chunks": [
         "frontity-test"
       ],
@@ -97,7 +68,8 @@
         "frontity-test"
       ],
       "info": {},
-      "emitted": false
+      "emitted": false,
+      "isOverSizeLimit": true
     },
     {
       "name": "list.module.js",
@@ -119,8 +91,7 @@
         "frontity-test"
       ],
       "assets": [
-        "frontity-test.module.js",
-        "frontity-test.7e9ed84a4a8a3067b9f1.hot-update.js"
+        "frontity-test.module.js"
       ],
       "children": {},
       "childAssets": {}
@@ -132,8 +103,7 @@
         "frontity-test"
       ],
       "assets": [
-        "frontity-test.module.js",
-        "frontity-test.7e9ed84a4a8a3067b9f1.hot-update.js"
+        "frontity-test.module.js"
       ],
       "children": {},
       "childAssets": {}
