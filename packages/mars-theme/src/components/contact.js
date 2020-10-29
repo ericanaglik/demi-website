@@ -105,13 +105,14 @@ const PartnershipsListContainer = styled.div`
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  margin-top: 50px;
+  padding-top: 60px;
 `;
 
 const PartnershipsTitle = styled.p`
   font-family: elgocthin;
   position: absolute;
   left: 10%;
+  top: -60px;
   z-index: 900;
   font-size: 40px;
   letter-spacing: 4px;
@@ -133,7 +134,7 @@ const FeaturedInContainer = styled.div`
 const FeaturedInTitle = styled.p`
   font-family: elgocthin;
   position: absolute;
-  top: 1px;
+  top: -60px;
   left: 10%;
   z-index: 900;
   font-size: 40px;
@@ -262,7 +263,7 @@ const WorkWithMeTitle = styled.p`
   font-family: elgocthin;
   position: absolute;
   left: 10%;
-  top: -25px;
+  top: -65px;
   z-index: 10;
   font-size: 40px;
   letter-spacing: 4px;
